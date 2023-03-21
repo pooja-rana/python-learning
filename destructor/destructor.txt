@@ -1,0 +1,30 @@
+
+ 1) What is Destructor in Python?
+
+ Ans:- A destructor is called when an object is deleted or destroyed. Destructor is used to perform the clean-up
+       activity before destroying the object, such as closing database connections or filehandle.
+
+       Python has a garbage collector that handles memory management automatically.
+       For example, it cleans up the memory when an object goes out of scope.
+
+       But it’s not just memory that has to be freed when an object is destroyed.
+       We must release or close the other resources object were using, such as open files,
+       database connections, cleaning up the buffer or cache. To perform all those cleanup tasks
+       we use destructor in Python.
+
+       destructor is not called manually but completely automatic. destructor gets called in the
+       following two cases
+
+        1) When an object goes out of scope or
+        2) The reference counter of the object reaches 0.
+
+
+        syntext:
+
+            def __del__(self):
+                # body of a destructor
+
+
+reference link
+
+https://pynative.com/python-destructor/
