@@ -1,0 +1,54 @@
+
+    1)What is encapsulation?
+
+    Ans:-  Encapsulation in Python describes the concept of bundling data and methods within a single unit. So,
+           for example, when you create a class, it means you are implementing encapsulation.
+           A class is an example of encapsulation as it binds all the data members (instance variables)
+           and methods into a single unit.
+
+           encapsulation allows us to restrict accessing variables and methods directly and prevent accidental data
+           modification by creating private data members and methods within a class.
+
+           Encapsulation is a way to can restrict access to methods and variables from outside of class. Whenever we are working with the
+           class and dealing with sensitive data, providing access to all variables used within the class is not a good choice.
+
+
+    2) Access Modifiers in Python
+
+        Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected. But In Python,
+        we don’t have direct access modifiers like public, private, and protected. We can achieve this by using single underscore and double
+        underscores.
+
+        Access modifiers limit access to the variables and methods of a class. Python provides three types of access modifiers
+        private, public, and protected.
+
+        Public Member: Accessible anywhere from within or outside class.
+                       ex:-(self.name = name)
+
+        Private Member: Accessible within the only class
+                       ex:-(self.__name = name (access using "__" underscore))
+
+                       We can access private members from outside of a class using the following two approaches
+
+                       1)Create public method to access private members (exampal in private_accessmodifier.py)
+
+                       2)Use name mangling (exampal in private_accessmodifier.py)
+
+                            We can directly access private and protected variables from outside of a class through name mangling.
+                            The name mangling is created on an identifier by adding two leading underscores and one trailing underscore,
+                            like this _classname__dataMember, where classname is the current class, and data member is the private variable name.
+
+
+        Protected Member: Accessible within the class and its sub-classes
+                       ex:-(self._name = name (access using "_" underscore))
+
+
+                       Protected members are accessible within the class and also available to its sub-classes. To define a protected member,
+                       prefix the member name with a single underscore _. Protected data members are used when you implement inheritance and
+                       want to allow data members access to only child classes.
+
+
+reference : https://pynative.com/python-encapsulation/
+
+
+

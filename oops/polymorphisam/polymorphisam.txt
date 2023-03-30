@@ -1,0 +1,11 @@
+
+  1)What is Polymorphism in Python?
+   Ans:- Polymorphism in Python is the ability of an object to take many forms. In simple words,
+         polymorphism allows us to perform the same action in many different ways.
+         For example, Jessa acts as an employee when she is at the office. However, when she is at home,
+         she acts like a wife. Also, she represents herself differently in different places.
+         Therefore, the same person takes different forms as per the situation.
+         In polymorphism, a method can process objects differently depending on the class type or data type.
+
+
+reference:-https://pynative.com/python-polymorphism/
