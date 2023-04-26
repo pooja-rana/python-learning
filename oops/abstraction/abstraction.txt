@@ -1,0 +1,20 @@
+
+    1) what is abstraction?
+    Ans :- Abstraction is one of the important topics of object-oriented programming (OOP) which is used to handle complexity by
+           hiding unnecessary information and showing only essential information to the user. Abstraction becomes very useful when
+           we want to implement or handle complex logic without knowing the hidden complexity.
+
+      --> abstraction in python
+
+           Let’s understand how we can use the inbuild python class Abstract Base Class (ABC) to achieve data abstraction in python.
+           We can say a class is an abstract class when a class contains an abstract method. We can use @abstractmethod keyword to define
+           an abstract method in python.
+
+      --> What are Concrete Methods in Abstract Base Class(ABC)?
+          If a class contains only concrete methods ( normal methods) we can say it is a concrete class. On the other hand, an abstract class
+          contains both normal and abstract methods. The concrete class is mainly used to provide an implementation of the abstract methods of
+          the abstract superclass.
+
+      --> Abstract Properties of an Abstract Class:-
+          An abstract base class of python also provides the functionality of abstract properties along with abstractmethod. We can use the @abstractproperty
+          decorator of the abc module to achieve abstract properties. Abstract properties are generally used to achieve getters and setters functionality.
